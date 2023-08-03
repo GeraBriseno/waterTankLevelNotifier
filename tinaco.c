@@ -244,7 +244,7 @@ void ultrasonic_test(void *pvParameters)
                 char message[20];
                 sprintf(message, "Nivel: %f", distance*100);
                 unsigned char *unsignedMessage = (unsigned char *)message; 
-                if((distance/100)<40){
+                if((distance/100)>90){
                     send_whatsapp_message(unsignedMessage);
                 }
             }
