@@ -46,7 +46,6 @@ static EventGroupHandle_t s_wifi_event_group;
 static const char *TAG = "HTTP_CLIENT";
 unsigned char api_key[] = "1234567";
 unsigned char whatsapp_num[] = "123456789";
-unsigned char whatsapp_message[] = "Nivel Bajo";
 static const char *TAG2 = "wifi station";
 
 bool medicion = false;
